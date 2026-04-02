@@ -9,3 +9,7 @@ class Teststatus:
 st=Teststatus()
 st.passed()
 st.failed()
+
+from encapsulation import Credentials
+cred = Credentials()
+print(cred.get_password())
