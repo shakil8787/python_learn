@@ -13,3 +13,9 @@ class Chrome(Browser):
 class Firefox(Browser):
     def start(self):
         print("ফায়ারফক্স ব্রাউজার শুরু হয়েছে।")
+
+ch =Chrome()
+ch.start()
+print("================================")
+fh=Firefox()
+fh.start()

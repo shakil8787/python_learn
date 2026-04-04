@@ -12,9 +12,9 @@ x, y, z = 1, 2.3, "python"
 print("int: ",x)
 print("float: ",y)
 print("string: ",z)
-print("multiple assignment: ",x,y,z)
+print("multiple assignment one: ",x,y,z)
 a=b=c=100
-print("chaine assignment: ",a,b,c)
+print("chaine assignment one: ",a,b,c)
 num_str = "123"
 num_int = int(num_str)
 print("type conversion from string to int: ",num_int)
